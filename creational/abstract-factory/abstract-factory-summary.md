@@ -28,7 +28,13 @@ Savings and Credit Accounts, depending on whether it's a Platinum or Gold Accoun
 ### Link to [source-code for generic example](abstract_factory_account_example.py)
 
 ## UI Example (adapted from [2])
+### Class Diagram
+A third example we use defines a use-case for a Windows creation client that provides 
+an Abstract UI Factory. This UI Factory can create Window objects by using either the GtK or Qt framework.
+![](abstract-factory-ui.png)
 ### Link to [source-code for generic example](abstract_factory_ui_example.py)
+
+#### Link to [Main README](../../README.md)
 
 # Bibliography:
 1. **Design Patterns Elements of Reusable Object-Oriented Software** (by Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides)
