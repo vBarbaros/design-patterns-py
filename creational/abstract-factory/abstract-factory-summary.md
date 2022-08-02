@@ -23,16 +23,16 @@ The generic class diagram for the Abstract Factory pattern can be seen below:
 Another example used in this documentation defines a use-case for a Bank UI Client
 which provides an Abstract Factory that creates the Look-And-Feel for the set of
 Savings and Credit Accounts, depending on whether it's a Platinum or Gold Account Type.
-![](abstract-factory-example.png)
+![](abstract-factory-account.png)
 
-### Link to [source-code for generic example](abstract_factory_account_example.py)
+### Link to [source-code for generic example](abstract_factory_account.py)
 
 ## UI Example (adapted from [2])
 ### Class Diagram
 A third example we use defines a use-case for a Windows creation client that provides 
 an Abstract UI Factory. This UI Factory can create Window objects by using either the GtK or Qt framework.
 ![](abstract-factory-ui.png)
-### Link to [source-code for generic example](abstract_factory_ui_example.py)
+### Link to [source-code for generic example](abstract_factory_ui.py)
 
 #### Link to [Main README](../../README.md)
 
