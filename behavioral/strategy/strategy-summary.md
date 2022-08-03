@@ -1,8 +1,13 @@
 # Intent
+When we need to define multiple algorithms, it's easier to encapsulate each of them
+and make them interchangeable for a certain client/scope in which they are used.
+The strategy makes it very flexible to be used depending on the clients that try to.
 
 # Also known as
+Policy
 
 # Motivation
+
 
 ## Generic Example
 ### Class Diagram
