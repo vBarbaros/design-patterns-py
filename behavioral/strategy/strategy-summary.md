@@ -7,7 +7,13 @@ The strategy makes it very flexible to be used depending on the clients that try
 Policy
 
 # Motivation
+Given a set of Clients C and a set of Algorithms A, we can have the following situations:
+* Clients in C supporting multiple algorithms from A, may become too complex and hard to maintain;
+* Many algorithms from A may be needed at different times, and we want to support only those need at certain times;
+* It would be difficult to add new Algorithms in A, and/or modify the existing ones if we let them become embedded with clients;
 
+We can avoid these issues by encapsulating each algorithm into separate classes. An algorithm that
+is encapsulated in this way, is called a strategy.
 
 ## Generic Example
 ### Class Diagram
