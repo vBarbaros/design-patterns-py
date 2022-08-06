@@ -17,6 +17,7 @@ is encapsulated in this way, is called a strategy.
 
 ## Generic Example
 ### Class Diagram
+![](diagrams/strategy-generic.png)
 
 ### Link to 
 
