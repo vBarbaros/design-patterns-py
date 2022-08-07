@@ -19,7 +19,7 @@ is encapsulated in this way, is called a strategy.
 ### Class Diagram
 ![](diagrams/strategy-generic.png)
 
-### Link to 
+### Link to [source-code for startegy](strategy_generic.py)
 
 ## <Name 1> Example
 ### Class Diagram
