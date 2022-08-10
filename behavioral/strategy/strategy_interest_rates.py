@@ -34,30 +34,8 @@ class ConcreteStrategyC():
         pass
 
 
-class Context:
-    def __init__(self):
-        self.strategy = None
-
-    def set_strategy(self, strategy):
-        self.strategy = strategy
-
-    def get_strategy(self):
-        return self.strategy
-
-
 if __name__ == "__main__":
     print(issubclass(ConcreteStrategyA, StrategyInterface))
     print(issubclass(ConcreteStrategyB, StrategyInterface))
     print(issubclass(ConcreteStrategyC, StrategyInterface))
     print(ConcreteStrategyA.__mro__)
-
-    context = Context()
-
-    context.set_strategy(ConcreteStrategyA())
-    print(context.get_strategy())
-
-    context.set_strategy(ConcreteStrategyB())
-    print(context.get_strategy())
-
-    context.set_strategy(ConcreteStrategyC())
-    print(context.get_strategy())

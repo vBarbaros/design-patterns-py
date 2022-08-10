@@ -17,7 +17,6 @@ domain knowledge and terms will be used for at least one of the examples/diagram
 * [Strategy](behavioral/strategy/) ([Summary](behavioral/strategy/strategy-summary.md), Examples: [Generic](behavioral/strategy/strategy_generic.py), [WIP account](behavioral/strategy/))
 
 <hr>
-<hr>
 
 #### Bibliography
 [1] **Design Patterns Elements of Reusable Object-Oriented Software** 
