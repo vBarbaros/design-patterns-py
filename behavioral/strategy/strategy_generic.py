@@ -1,48 +1,44 @@
-# sources :
-# https://www.tutorialspoint.com/python_design_patterns/python_design_patterns_strategy.htm
-# https://realpython.com/python-interface/ (example of interface implementation in Python)
-
 import abc
 
 
 class StrategyInterface(metaclass=abc.ABCMeta):
     @classmethod
     def __subclasshook__(self, subclass):
-        return (hasattr(subclass, 'algorithm_interface') and
-                callable(subclass.algorithm_interface))
+        return (hasattr(subclass, 'execute_strategy') and
+                callable(subclass.execute_strategy))
 
     @abc.abstractmethod
-    def algorithm_strategy(self, attribute: str) -> str:
+    def execute_strategy(self, attribute: str) -> str:
         raise NotImplementedError
 
 
 class ConcreteStrategyA():
-    def algorithm_interface(self, attribute: str) -> str:
+    def execute_strategy(self, attribute: str) -> None:
         """Overrides StrategyInterface.algorithm_interface()"""
-        pass
+        print('strategy ', attribute)
 
 
 class ConcreteStrategyB():
-    def algorithm_interface(self, attribute: str) -> str:
+    def execute_strategy(self, attribute: str) -> None:
         """Overrides StrategyInterface.algorithm_interface()"""
-        pass
+        print('strategy ', attribute)
 
 
 class ConcreteStrategyC():
-    def algorithm_interface(self, attribute: str) -> str:
+    def execute_strategy(self, attribute: str) -> None:
         """Overrides StrategyInterface.algorithm_interface()"""
-        pass
+        print('strategy ', attribute)
 
 
 class Context:
     def __init__(self):
         self.strategy = None
 
-    def set_strategy(self, strategy):
+    def set_strategy(self, strategy: StrategyInterface):
         self.strategy = strategy
 
-    def get_strategy(self):
-        return self.strategy
+    def execute_strategy(self, attribute: str):
+        return self.strategy.execute_strategy(attribute)
 
 
 if __name__ == "__main__":
@@ -54,10 +50,10 @@ if __name__ == "__main__":
     context = Context()
 
     context.set_strategy(ConcreteStrategyA())
-    print(context.get_strategy())
+    context.execute_strategy('A')
 
     context.set_strategy(ConcreteStrategyB())
-    print(context.get_strategy())
+    context.execute_strategy('B')
 
     context.set_strategy(ConcreteStrategyC())
-    print(context.get_strategy())
+    context.execute_strategy('C')
