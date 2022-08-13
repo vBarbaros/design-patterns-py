@@ -37,7 +37,7 @@ class Context:
     def set_strategy(self, strategy: StrategyInterface):
         self.strategy = strategy
 
-    def execute_strategy(self, attribute: str):
+    def execute(self, attribute: str):
         return self.strategy.execute_strategy(attribute)
 
 
@@ -50,10 +50,10 @@ if __name__ == "__main__":
     context = Context()
 
     context.set_strategy(ConcreteStrategyA())
-    context.execute_strategy('A')
+    context.execute('A')
 
     context.set_strategy(ConcreteStrategyB())
-    context.execute_strategy('B')
+    context.execute('B')
 
     context.set_strategy(ConcreteStrategyC())
-    context.execute_strategy('C')
+    context.execute('C')
