@@ -19,19 +19,14 @@ is encapsulated in this way, is called a strategy.
 ### Class Diagram
 ![](diagrams/strategy-generic.png)
 
-### Link to [source-code for startegy](strategy_generic.py)
+### Link to [source-code for strategy - generic example](strategy_generic.py)
 
-## <Name 1> Example
+## Investment Strategy Example
 ### Class Diagram
+![](diagrams/strategy-investment.png)
 
-### Link to 
-## <Name 2> Example
-### Class Diagram
+### Link to [source-code for strategy - interest_rates example](strategy_interest_rates.py)
 
-### Link to 
+
 
 #### Link to [Main README](../../README.md)
-
-# Bibliography:
-1. **Design Patterns Elements of Reusable Object-Oriented Software** (by Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides)
-2. [Strategy on https://www.tutorialspoint.com](https://www.tutorialspoint.com/python_design_patterns/python_design_patterns_strategy.htm)
