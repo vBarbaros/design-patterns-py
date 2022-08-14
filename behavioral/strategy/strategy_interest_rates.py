@@ -16,10 +16,10 @@ class InterestRatesGIC():
     def execute_strategy(self, sum_invest: float) -> None:
         rate = 0.035
         print('Investing in GIC : ', "${:,.2f}".format(sum_invest))
-        print('Final Sum at end of year 1 : ', "${:,.2f}".format(sum_invest*(1+rate)))
-        gains = (sum_invest*(1+rate)) - sum_invest
-        for i in range(0,12):
-            print('sum paid on month [', i+1, '] : ', "${:,.2f}".format(gains / 12))
+        print('Final Sum at end of year 1 : ', "${:,.2f}".format(sum_invest * (1 + rate)))
+        gains = (sum_invest * (1 + rate)) - sum_invest
+        for i in range(0, 12):
+            print('sum paid on month [', i + 1, '] : ', "${:,.2f}".format(gains / 12))
 
 
 class InterestRatesHISA():
@@ -42,7 +42,7 @@ class InterestRatesTFSA():
             print('sum paid on month [', i + 1, '] : ', "${:,.2f}".format(gains / 12))
 
 
-class BankAccount:
+class InvestmentAccount:
     def __init__(self):
         self.strategy = None
 
@@ -60,13 +60,13 @@ if __name__ == "__main__":
     print(InterestRatesGIC.__mro__)
 
     sum_to_invest = 5000.0
-    context = BankAccount()
+    invest = InvestmentAccount()
 
-    context.set_strategy(InterestRatesGIC())
-    context.execute(sum_to_invest)
+    invest.set_strategy(InterestRatesGIC())
+    invest.execute(sum_to_invest)
 
-    context.set_strategy(InterestRatesHISA())
-    context.execute(sum_to_invest)
+    invest.set_strategy(InterestRatesHISA())
+    invest.execute(sum_to_invest)
 
-    context.set_strategy(InterestRatesTFSA())
-    context.execute(sum_to_invest)
+    invest.set_strategy(InterestRatesTFSA())
+    invest.execute(sum_to_invest)
