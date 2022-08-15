@@ -15,17 +15,14 @@ class InterestRatesInterface(metaclass=abc.ABCMeta):
 class InterestRatesGIC():
     def execute_strategy(self, sum_invest: float) -> None:
         rate = 0.035
-        print('Investing in GIC : ', "${:,.2f}".format(sum_invest))
-        print('Final Sum at end of year 1 : ', "${:,.2f}".format(sum_invest * (1 + rate)))
-        gains = (sum_invest * (1 + rate)) - sum_invest
-        for i in range(0, 12):
-            print('sum paid on month [', i + 1, '] : ', "${:,.2f}".format(gains / 12))
+        print('\nInvesting in GIC (interest rate -', rate,' ): ', "${:,.2f}".format(sum_invest))
+        print('Final Sum at end of year 1 (at maturity) : ', "${:,.2f}".format(sum_invest * (1 + rate)))
 
 
 class InterestRatesHISA():
     def execute_strategy(self, sum_invest: float) -> None:
         rate = 0.01
-        print('Investing in HISA: ', "${:,.2f}".format(sum_invest))
+        print('\nInvesting in HISA (interest rate -', rate,' ): ', "${:,.2f}".format(sum_invest))
         print('Final Sum at end of year 1 : ', "${:,.2f}".format(sum_invest * (1 + rate)))
         gains = (sum_invest * (1 + rate)) - sum_invest
         for i in range(0, 12):
@@ -35,11 +32,9 @@ class InterestRatesHISA():
 class InterestRatesTFSA():
     def execute_strategy(self, sum_invest: float) -> None:
         rate = 0.025
-        print('Investing in TFSA : ', "${:,.2f}".format(sum_invest))
-        print('Final Sum at end of year 1 : ', "${:,.2f}".format(sum_invest * (1 + rate)))
-        gains = (sum_invest * (1 + rate)) - sum_invest
-        for i in range(0, 12):
-            print('sum paid on month [', i + 1, '] : ', "${:,.2f}".format(gains / 12))
+        print('\nInvesting in TFSA (interest rate -', rate,' ): ', "${:,.2f}".format(sum_invest))
+        print('Invested for 3 years, capitalized annually')
+        print('Final Sum at end of year 3 : ', "${:,.2f}".format(sum_invest * (1 + rate)**3))
 
 
 class InvestmentAccount:

@@ -15,6 +15,12 @@ Given a set of Clients C and a set of Algorithms A, we can have the following si
 We can avoid these issues by encapsulating each algorithm into separate classes. An algorithm that
 is encapsulated in this way, is called a strategy.
 
+# When to use
+* When you have many related classes that are different in some parts of their behavior;
+* When you want to make use of multiple variations of the same algorithm;
+* When you have algorithms using data that the client should not be aware of;
+* When you end up with a class having multiple variations, defined in separate conditional statements;
+
 ## Generic Example
 ### Class Diagram
 ![](diagrams/strategy-generic.png)
