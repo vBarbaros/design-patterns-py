@@ -9,7 +9,7 @@ domain knowledge and terms will be used for at least one of the examples/diagram
 
 <hr>
 
-### Table of Contents
+# Table of Contents
 #### Creational
 * [Abstract Factory](creational/abstract-factory/) ([Summary](creational/abstract-factory/abstract-factory-summary.md), Examples: [Generic](creational/abstract-factory/abstract_factory_generic.py), [Bank account](creational/abstract-factory/abstract_factory_account.py), [UI](creational/abstract-factory/abstract_factory_ui.py))
 
@@ -18,6 +18,9 @@ domain knowledge and terms will be used for at least one of the examples/diagram
 
 <hr>
 
-#### Bibliography
+# References
 [1] **Design Patterns Elements of Reusable Object-Oriented Software** (by Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides) <br>
 [2] Python Design Patterns examples from [https://www.tutorialspoint.com](https://www.tutorialspoint.com/python_design_patterns/index.htm)
+
+
+Copyright (c) 2022 vBarbaros
