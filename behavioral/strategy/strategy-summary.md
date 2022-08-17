@@ -1,4 +1,4 @@
-# Intent
+# Main idea
 When we need to define multiple algorithms, it's easier to encapsulate each of them
 and make them interchangeable for a certain client/scope in which they are used.
 The strategy makes it very flexible to be used depending on the clients that try to.
@@ -6,7 +6,7 @@ The strategy makes it very flexible to be used depending on the clients that try
 # Also known as
 Policy
 
-# Motivation
+# Why we need it
 Given a set of Clients C and a set of Algorithms A, we can have the following situations:
 * Clients in C supporting multiple algorithms from A, may become too complex and hard to maintain;
 * Many algorithms from A may be needed at different times, and we want to support only those need at certain times;

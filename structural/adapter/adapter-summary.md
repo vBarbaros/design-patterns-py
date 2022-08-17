@@ -1,8 +1,12 @@
-# Intent
+# Main idea
+Makes it possible for classes with incompatible interfaces to still work together.
 
 # Also known as
 
-# Motivation
+# Why we need it
+
+# When to use
+
 
 ## Generic Example
 ### Class Diagram

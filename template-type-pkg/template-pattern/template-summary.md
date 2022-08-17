@@ -1,8 +1,8 @@
-# Intent
+# Main idea
 
 # Also known as
 
-# Motivation
+# Why we need it
 
 ## Generic Example
 ### Class Diagram
