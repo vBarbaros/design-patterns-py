@@ -2,6 +2,7 @@
 Makes it possible for classes with incompatible interfaces to still work together.
 
 # Also known as
+* Wrapper
 
 # Why we need it
 

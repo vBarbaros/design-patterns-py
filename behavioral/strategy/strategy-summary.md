@@ -4,7 +4,7 @@ and make them interchangeable for a certain client/scope in which they are used.
 The strategy makes it very flexible to be used depending on the clients that try to.
 
 # Also known as
-Policy
+* Policy
 
 # Why we need it
 Given a set of Clients C and a set of Algorithms A, we can have the following situations:
