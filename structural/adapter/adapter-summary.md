@@ -5,10 +5,11 @@ Makes it possible for classes with incompatible interfaces to still work togethe
 * Wrapper
 
 # Why we need it
-
-# When to use
 You will need this pattern when you want to use an interface from another application
 that does not directly map to your domain-knowledge application.
+
+# When to use
+
 
 ## Generic Example
 ### Class Diagram
