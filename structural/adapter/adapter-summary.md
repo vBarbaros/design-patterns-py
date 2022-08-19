@@ -7,7 +7,8 @@ Makes it possible for classes with incompatible interfaces to still work togethe
 # Why we need it
 
 # When to use
-
+You will need this pattern when you want to use an interface from another application
+that does not directly map to your domain-knowledge application.
 
 ## Generic Example
 ### Class Diagram
