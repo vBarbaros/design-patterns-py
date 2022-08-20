@@ -17,7 +17,7 @@ domain knowledge and terms will be used for at least one of the examples/diagram
 * [Abstract Factory](creational/abstract-factory/) ([Summary](creational/abstract-factory/abstract-factory-summary.md), Examples: [Generic](creational/abstract-factory/abstract_factory_generic.py), [Bank account](creational/abstract-factory/abstract_factory_account.py), [UI](creational/abstract-factory/abstract_factory_ui.py))
 
 #### Structural
-* [Adapter](structural/adapter/) ([Summary](structural/adapter/adapter-summary.md), Examples: [Generic](structural/adapter/adapter.py), [WIP](structural/adapter/..)))
+* [Adapter](structural/adapter/) ([Summary](structural/adapter/adapter-summary.md), Examples: [Generic](structural/adapter/adapter_generic.py), [WIP](structural/adapter/..)))
 
 
 <hr>
