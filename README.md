@@ -19,8 +19,25 @@ domain knowledge and terms will be used for at least one of the examples/diagram
 #### Structural
 * [Adapter](structural/adapter/) ([Summary](structural/adapter/adapter-summary.md), Examples: [Generic](structural/adapter/adapter_generic.py), [WIP](structural/adapter/..)))
 
-
 <hr>
+
+### Design patterns diagrams you'll find inside
+
+  <table>
+  <tr>
+    <td><img src="behavioral/strategy/diagrams/strategy-generic.png"  alt="Strategy Generic" width="400px" height="200px" title="Strategy Generic"></td>
+    <td><img src="behavioral/strategy/diagrams/strategy-investment.png" alt="Strategy Investment" width="400px" height="200px" title="Strategy Investment"></td>
+  </tr>
+  <tr>
+    <td><img src="creational/abstract-factory/diagrams/abstract-factory-generic.png"  alt="Abstract Factory Generic" width="400px" height="200px" title="Abstract Factory Generic"></td>
+    <td><img src="creational/abstract-factory/diagrams/abstract-factory-account.png" alt="Abstract Factory Account" width="400px" height="200px" title="Abstract Factory Account"></td>
+  </tr>
+  <tr>
+    <td><img src="structural/adapter/diagrams/adapter-generic.png"  alt="Abstract(Class & Object) Generic" width="400px" height="400px" title="Abstract(Class & Object) Factory Generic"></td>
+
+  </tr>
+  </table>
+
 
 # References
 [1] **Design Patterns Elements of Reusable Object-Oriented Software** (by Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides) <br>
