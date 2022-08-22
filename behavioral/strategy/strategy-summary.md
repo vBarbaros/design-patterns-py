@@ -34,5 +34,4 @@ is encapsulated in this way, is called a strategy.
 ### Link to [source-code for strategy - interest_rates example](strategy_interest_rates.py)
 
 
-
 #### Link to [Main README](../../README.md)
