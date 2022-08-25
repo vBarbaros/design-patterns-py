@@ -1,24 +1,29 @@
 class AdapteeInterface:
-    def specific_request(self): pass
+    def specific_request(self, adapter_type): pass
 
 
 class Adaptee(AdapteeInterface):
-    def specific_request(self):
-        print('I am requesting you to be very specific, here...')
-
-
-class TargetInterface:
-    def request(self): pass
+    def specific_request(self, adapter_type):
+        print('A veru specific request -', adapter_type)
 
 
 class Target:
-    def request(self): pass
+    def request(self, adapter_type): pass
 
 
-# The Adapter
-class Adapter(Adaptee, Target):
-    def request(self):
-        self.specific_request()
+# Class Adapter
+class AdapterClass(Target, Adaptee):
+    def request(self, adapter_type):
+        self.specific_request(adapter_type)
+
+
+# Object Adapter
+class AdapterObject(Target):
+    def __init__(self, adaptee):
+        self.adaptee = adaptee
+
+    def request(self, adapter_type):
+        self.adaptee.specific_request(adapter_type)
 
 
 class Client:
@@ -27,15 +32,23 @@ class Client:
     def __init__(self, adapter):
         self.__adapter = adapter
 
-    def run(self):
-        self.__adapter.request()
+    def run(self, adapter_type):
+        self.__adapter.request(adapter_type)
 
 
-def main():
-    adapter = Adapter()
+def main_class_adapter_pattern():
+    adapter_type = 'Class Adapter Patter'
+    client = Client(AdapterClass())
+    client.run(adapter_type)
+
+
+def main_object_adapter_pattern():
+    adapter_type = 'Object Adapter Patter'
+    adapter = AdapterObject(Adaptee())
     client = Client(adapter)
-    client.run()
+    client.run(adapter_type)
 
 
 if __name__ == "__main__":
-    main()
+    main_class_adapter_pattern()
+    main_object_adapter_pattern()
