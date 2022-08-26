@@ -4,7 +4,7 @@ class AdapteeInterface:
 
 class Adaptee(AdapteeInterface):
     def specific_request(self, adapter_type):
-        print('A veru specific request -', adapter_type)
+        print('A very specific request -', adapter_type)
 
 
 class Target:

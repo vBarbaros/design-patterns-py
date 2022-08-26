@@ -1,29 +1,42 @@
-class EuroInterface:
-    def specific_request(self, adapter_type): pass
+class AccountsEuroCurrencyInterface:
+    def deposit_euro(self, init_deposit): pass
 
 
-class Euro(EuroInterface):
-    def specific_request(self, adapter_type):
-        print('A veru specific request -', adapter_type)
+class AccountsEuroCurrency(AccountsEuroCurrencyInterface):
+    def __init__(self, init_deposit):
+        self.current_balance = init_deposit
+
+    def deposit_euro(self, amount_to_deposit):
+        print('Balance before: [EURO', self.current_balance, ']')
+        print('... depositing: [EURO', amount_to_deposit, ']')
+        self.current_balance += amount_to_deposit
+        print('Balance after: [EURO', self.current_balance, ']')
 
 
-class CanadianDollar:
-    def request(self, adapter_type): pass
+class AccountsCanadianDollarCurrency:
+    def deposit(self, amount_to_deposit): pass
 
 
 # Class Adapter
-class EuroToCanConverterClassType(CanadianDollar, Euro):
-    def request(self, adapter_type):
-        self.specific_request(adapter_type)
+class CanToEuroConverterClassType(AccountsCanadianDollarCurrency, AccountsEuroCurrency):
+    def __init__(self, init_deposit):
+        super().__init__(init_deposit)
+        self.can_to_euro_exchange_rate = 0.7752
+
+    def deposit(self, amount_to_deposit_in_can):
+        amount_to_deposit_in_euro = self.can_to_euro_exchange_rate * amount_to_deposit_in_can
+        self.deposit_euro(amount_to_deposit_in_euro)
 
 
 # Object Adapter
-class EuroToCanConverterObjectType(CanadianDollar):
+class CanToEuroConverterObjectType(AccountsCanadianDollarCurrency):
     def __init__(self, adaptee):
         self.adaptee = adaptee
+        self.can_to_euro_exchange_rate = 0.7752
 
-    def request(self, adapter_type):
-        self.adaptee.specific_request(adapter_type)
+    def deposit(self, amount_to_deposit_in_can):
+        amount_to_deposit_in_euro = self.can_to_euro_exchange_rate * amount_to_deposit_in_can
+        self.adaptee.deposit_euro(amount_to_deposit_in_euro)
 
 
 class BankOfCanada:
@@ -32,21 +45,21 @@ class BankOfCanada:
     def __init__(self, adapter):
         self.__adapter = adapter
 
-    def run(self, adapter_type):
-        self.__adapter.request(adapter_type)
+    def run(self, amount_to_deposit):
+        self.__adapter.deposit(amount_to_deposit)
 
 
 def main_class_adapter_pattern():
-    adapter_type = 'Class Adapter Patter'
-    client = BankOfCanada(EuroToCanConverterClassType())
-    client.run(adapter_type)
+    print('\n...running Class Adapter Patter')
+    client = BankOfCanada(CanToEuroConverterClassType(1000))
+    client.run(500)
 
 
 def main_object_adapter_pattern():
-    adapter_type = 'Object Adapter Patter'
-    adapter = EuroToCanConverterObjectType(Euro())
+    print('\n...running Object Adapter Patter')
+    adapter = CanToEuroConverterObjectType(AccountsEuroCurrency(1000))
     client = BankOfCanada(adapter)
-    client.run(adapter_type)
+    client.run(500)
 
 
 if __name__ == "__main__":
