@@ -45,21 +45,21 @@ class BankOfCanada:
     def __init__(self, adapter):
         self.__adapter = adapter
 
-    def run(self, amount_to_deposit):
+    def deposit(self, amount_to_deposit):
         self.__adapter.deposit(amount_to_deposit)
 
 
 def main_class_adapter_pattern():
     print('\n...running Class Adapter Patter')
     client = BankOfCanada(CanToEuroConverterClassType(1000))
-    client.run(500)
+    client.deposit(500)
 
 
 def main_object_adapter_pattern():
     print('\n...running Object Adapter Patter')
     adapter = CanToEuroConverterObjectType(AccountsEuroCurrency(1000))
     client = BankOfCanada(adapter)
-    client.run(500)
+    client.deposit(500)
 
 
 if __name__ == "__main__":

@@ -25,7 +25,7 @@ domain knowledge and terms will be used for at least one of the examples/diagram
 #### Structural
 
 * [Adapter](structural/adapter/) ([Summary](structural/adapter/adapter-summary.md), Examples: [Generic](structural/adapter/adapter_generic.py)
-  , [WIP](structural/adapter/..)))
+  , [Foreign Currency Accounts](structural/adapter/adapter_foreign_currency_account.py)))
 
 <hr>
 
@@ -50,7 +50,8 @@ domain knowledge and terms will be used for at least one of the examples/diagram
     <td colspan="2">Adapter examples</td>
   </tr>
   <tr>
-    <td><img src="structural/adapter/diagrams/adapter-generic.png"  alt="Abstract(Class & Object) Generic" width="350em" height="440em" title="Abstract(Class & Object) Factory Generic"></td>
+    <td><img src="structural/adapter/diagrams/adapter-generic.png"  alt="Adapter (Class & Object) Generic" width="350em" height="440em" title="Adapter(Class & Object) Generic"></td>
+    <td><img src="structural/adapter/diagrams/adapter-foreign-currency-accounts.png"  alt="Adapter (Class & Object) Foreign Currency" width="350em" height="440em" title="Adapter (Class & Object) Foreign Currency"></td>
 
   </tr>
   </table>
