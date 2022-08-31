@@ -17,6 +17,10 @@ domain knowledge and terms will be used for at least one of the examples/diagram
   Examples: [Generic](creational/abstract-factory/abstract_factory_generic.py)
   , [Bank account](creational/abstract-factory/abstract_factory_account.py), [UI](creational/abstract-factory/abstract_factory_ui.py))
 
+* [Builder](creational/builder/) ([Summary](creational/builder/builder-summary.md),
+  Examples: [Generic](creational/builder/builder-generic.py)
+  , [wip](creational/builder/...))
+
 
 #### Behavioral
 
