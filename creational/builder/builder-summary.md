@@ -7,6 +7,10 @@ so that the same construction process can create different representations.
 N/A
 
 # Why we need it
+When a specific functionality is provided by a considerably complex class
+you would prefer to have a template of such a class so that for variations
+of the aforementioned functionality it is easy add new classes of similar
+complexity.
 
 ## Generic Example
 ### Class Diagram
