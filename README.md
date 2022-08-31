@@ -13,25 +13,32 @@ domain knowledge and terms will be used for at least one of the examples/diagram
 
 #### Creational
 
-* [Abstract Factory](creational/abstract-factory/) ([Summary](creational/abstract-factory/abstract-factory-summary.md),
-  Examples: [Generic](creational/abstract-factory/abstract_factory_generic.py)
-  , [Bank account](creational/abstract-factory/abstract_factory_account.py), [UI](creational/abstract-factory/abstract_factory_ui.py))
+* [Abstract Factory](creational/abstract-factory/)
+  ([Summary](creational/abstract-factory/abstract-factory-summary.md),
+   [Generic](creational/abstract-factory/abstract_factory_generic.py), 
+   [Bank account](creational/abstract-factory/abstract_factory_account.py), 
+   [UI](creational/abstract-factory/abstract_factory_ui.py))
 
-* [Builder](creational/builder/) ([Summary](creational/builder/builder-summary.md),
-  Examples: [Generic](creational/builder/builder-generic.py)
-  , [wip](creational/builder/...))
+* [Builder](creational/builder/) 
+  ([Summary](creational/builder/builder-summary.md),
+   [Generic](creational/builder/builder-generic.py), 
+   [wip](creational/builder/...))
 
 
 #### Behavioral
 
-* [Strategy](behavioral/strategy/) ([Summary](behavioral/strategy/strategy-summary.md), Examples: [Generic](behavioral/strategy/strategy_generic.py)
-  , [Interest Rates](behavioral/strategy/strategy_interest_rates.py))
+* [Strategy](behavioral/strategy/) 
+  ([Summary](behavioral/strategy/strategy-summary.md),
+   [Generic](behavioral/strategy/strategy_generic.py), 
+   [Interest Rates](behavioral/strategy/strategy_interest_rates.py))
 
 
 #### Structural
 
-* [Adapter](structural/adapter/) ([Summary](structural/adapter/adapter-summary.md), Examples: [Generic](structural/adapter/adapter_generic.py)
-  , [Foreign Currency Accounts](structural/adapter/adapter_foreign_currency_account.py)))
+* [Adapter](structural/adapter/) 
+  ([Summary](structural/adapter/adapter-summary.md),
+   [Generic](structural/adapter/adapter_generic.py), 
+   [Foreign Currency Accounts](structural/adapter/adapter_foreign_currency_account.py)))
 
 <hr>
 
