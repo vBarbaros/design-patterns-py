@@ -40,8 +40,8 @@ domain knowledge and terms will be used for at least one of the examples/diagram
    [Generic](structural/adapter/adapter_generic.py), 
    [Foreign Currency Accounts](structural/adapter/adapter_foreign_currency_account.py)))
 
-<hr>
 
+<hr>
 ### Design patterns diagrams you'll find inside
 
   <table>
