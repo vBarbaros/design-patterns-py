@@ -2,10 +2,9 @@
 
 <hr>
 This repository is intended to provide an extended collection of design patterns, 
-describing briefly the main concepts and purpose. 
+describing briefly the main concepts and purpose, all this while using financial
+domain knowledge and terms.
 
-They are accompanied by diagrams and python examples. Wherever possible, financial
-domain knowledge and terms will be used for at least one of the examples/diagrams.
 
 <hr>
 
@@ -42,6 +41,7 @@ domain knowledge and terms will be used for at least one of the examples/diagram
 
 
 <hr>
+
 ### Design patterns diagrams you'll find inside
 
   <table>
@@ -69,9 +69,13 @@ domain knowledge and terms will be used for at least one of the examples/diagram
   </tr>
   </table>
 
+
+<br><hr><hr>
+
 # References
 
+<hr>
 [1] **Design Patterns Elements of Reusable Object-Oriented Software** (by Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides) <br>
 [2] Python Design Patterns examples from [https://www.tutorialspoint.com](https://www.tutorialspoint.com/python_design_patterns/index.htm)
-
+<hr>
 Copyright (c) 2022 vBarbaros
