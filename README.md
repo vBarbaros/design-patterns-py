@@ -20,7 +20,7 @@ domain knowledge and terms.
 
 * [Builder](creational/builder/) 
   ([Summary](creational/builder/builder-summary.md),
-   [Generic](creational/builder/builder-generic.py), 
+   [Generic](creational/builder/builder_generic.py), 
    [wip](creational/builder/...))
 
 

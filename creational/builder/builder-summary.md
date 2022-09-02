@@ -13,19 +13,20 @@ of the aforementioned functionality it is easy add new classes of similar
 complexity.
 
 ## Generic Example
+The generic class diagram for the Builder pattern can (or will) be seen below:
 ### Class Diagram
+![](diagrams/builder-generic.png)
 
-### Link to 
+### Link to [source-code for generic builder example](builder_generic.py)
 
-## <Name 1> Example
+
+## Financial Service Example
+The generic class diagram for the Builder pattern can (or will) be seen below:
 ### Class Diagram
+![](diagrams/builder-generic.png)
 
-### Link to 
+### Link to [source-code for generic builder example](builder_generic.py)
 
-## <Name 2> Example
-### Class Diagram
-
-### Link to 
 
 
 #### Link to [Main README](../../README.md)
