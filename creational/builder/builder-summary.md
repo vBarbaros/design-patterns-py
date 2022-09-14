@@ -17,15 +17,15 @@ The generic class diagram for the Builder pattern can (or will) be seen below:
 ### Class Diagram
 ![](diagrams/builder-generic.png)
 
-### Link to [source-code for generic builder example](builder_generic.py)
+### Link to [source-code for builder - generic example](builder_generic.py)
 
 
 ## Financial Service Example
-The generic class diagram for the Builder pattern can (or will) be seen below:
+TBD:
 ### Class Diagram
-![](diagrams/builder-generic.png)
+![](diagrams/)
 
-### Link to [source-code for generic builder example](builder_generic.py)
+### Link to [source-code for builder - TBD example](*.py)
 
 
 

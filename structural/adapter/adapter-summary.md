@@ -13,13 +13,14 @@ that does not directly map to your domain-knowledge application.
 ### Class Diagrams (Class & Object Adapter Pattern diagrams)
 ![](diagrams/adapter-generic.png)
 
-### Link to [source-code for generic example](adapter_generic.py)
+### Link to [source-code for adapter - generic example](adapter_generic.py)
 
 
-## <Name 1> Example
-### Class Diagram
+## Foreign Currency Account Example
+### Class Diagrams (Class & Object Adapter Pattern diagrams)
+![](diagrams/adapter-foreign-currency-accounts.png)
 
-### Link to
+### Link to [source-code for adapter - foreign currency account example](adapter_foreign_currency_account.py)
 
 
 #### Link to [Main README](../../README.md)
