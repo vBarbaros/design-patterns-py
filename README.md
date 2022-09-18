@@ -1,11 +1,9 @@
-# `design-patterns-py` - Design Patterns in Python (with a flavor of finance)
+# Design Patterns in Python (with a flavor of finance)
 
 <hr>
-This repository is intended to provide an extended collection of design patterns, 
-describing briefly the main concepts and purpose, all this while using financial
-domain knowledge and terms.
-
-
+This repository aims to provide an extended collection of OOP Design Patterns, 
+briefly describing the main concepts and purpose for each of them, all this in 
+the context of financial domain knowledge.
 <hr>
 
 # Table of Contents
