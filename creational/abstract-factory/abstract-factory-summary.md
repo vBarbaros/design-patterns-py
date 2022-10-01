@@ -8,7 +8,7 @@ dependent objects (3) with no need to specify their concrete classes.
 
 # Why we need it
 A good example given in [1] is the need to provide a User Interface with different 
-Look-And-Feel setups across different platforms. In that case you define a UI Abstract Factory
+Look-And-Feel setup across different platforms. In that case you define a UI Abstract Factory
 which is inherited by separate Concrete Factories which internally put together the needed
 Look-And-Feel components, according to their roles.
 
