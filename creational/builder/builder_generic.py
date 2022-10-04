@@ -25,14 +25,14 @@ class Director():
         print(self.result)
 
 
-def main_object_builder_pattern():
+def main_builder_pattern():
     print('...creating Director...')
-    adapter = Director(ConcreteBuilder())
+    director = Director(ConcreteBuilder())
     print('...calling constructor()...')
-    adapter.construct()
+    director.construct()
     print('...displaying the built result...')
-    adapter.show_result()
+    director.show_result()
 
 
 if __name__ == "__main__":
-    main_object_builder_pattern()
+    main_builder_pattern()

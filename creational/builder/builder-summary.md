@@ -20,10 +20,9 @@ The generic class diagram for the Builder pattern can (or will) be seen below:
 ### Link to [source-code for builder - generic example](builder_generic.py)
 
 
-## Financial Service Example
-TBD:
+## Financial Portfolio Example
 ### Class Diagram
-![](diagrams/)
+![](diagrams/builder-financial-portfolio.png)
 
 ### Link to [source-code for builder - TBD example](*.py)
 
