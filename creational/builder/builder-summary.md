@@ -13,7 +13,6 @@ of the aforementioned functionality it is easy add new classes of similar
 complexity.
 
 ## Generic Example
-The generic class diagram for the Builder pattern can (or will) be seen below:
 ### Class Diagram
 ![](diagrams/builder-generic.png)
 
@@ -21,10 +20,12 @@ The generic class diagram for the Builder pattern can (or will) be seen below:
 
 
 ## Financial Portfolio Example
+
+
 ### Class Diagram
 ![](diagrams/builder-financial-portfolio.png)
 
-### Link to [source-code for builder - TBD example](*.py)
+### Link to [source-code for builder - financial portfolio example](builder_portfolio.py)
 
 
 
