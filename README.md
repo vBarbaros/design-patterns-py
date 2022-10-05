@@ -19,7 +19,7 @@ the context of financial domain knowledge.
 * [Builder](creational/builder/) 
   ([Summary](creational/builder/builder-summary.md),
    [Generic](creational/builder/builder_generic.py), 
-   [wip](creational/builder/...))
+   [Investment Portfolio](creational/builder/builder_portfolio.py))
 
 
 #### Behavioral
@@ -40,7 +40,7 @@ the context of financial domain knowledge.
 
 <hr>
 
-### Design patterns diagrams you'll find inside
+### (Some of) Design patterns diagrams you'll find inside
 
   <table>
   <tr>
