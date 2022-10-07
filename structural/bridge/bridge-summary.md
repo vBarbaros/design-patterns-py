@@ -1,4 +1,6 @@
 # Main idea
+We want to decouple an abstract entity from its implementation so that
+each of the two can vary independently.
 
 # Also known as
 
