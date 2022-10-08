@@ -3,8 +3,10 @@ We want to decouple an abstract entity from its implementation so that
 each of the two can vary independently.
 
 # Also known as
+Handle, Body
 
-# Why we need it
+# Why you need it
+
 
 ## Generic Example
 ### Class Diagram

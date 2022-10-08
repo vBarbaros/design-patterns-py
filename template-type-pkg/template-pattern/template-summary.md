@@ -2,7 +2,7 @@
 
 # Also known as
 
-# Why we need it
+# Why you need it
 
 ## Generic Example
 ### Class Diagram
