@@ -33,6 +33,7 @@ depending on client's needs.
 
 ## Generic Example
 ### Class Diagram
+![](diagrams/bridge-generic.png)
 
 ### Link to 
 
