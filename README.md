@@ -35,7 +35,12 @@ the context of financial domain knowledge.
 * [Adapter](structural/adapter/) 
   ([Summary](structural/adapter/adapter-summary.md),
    [Generic](structural/adapter/adapter_generic.py), 
-   [Foreign Currency Accounts](structural/adapter/adapter_foreign_currency_account.py)))
+   [Foreign Currency Accounts](structural/adapter/adapter_foreign_currency_account.py))
+
+* [Bridge](structural/bridge/) 
+  ([Summary](structural/bridge/bridge-summary.md),
+   [Generic](structural/bridge/bridge_generic.py), 
+   [WIP](structural/bridge/))
 
 
 <hr>
