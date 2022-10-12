@@ -11,13 +11,13 @@ the context of financial domain knowledge.
 #### Creational
 
 * [Abstract Factory](creational/abstract-factory/)
-  ([Summary](creational/abstract-factory/abstract-factory-summary.md),
+  ([Summary](creational/abstract-factory/README.md),
    [Generic](creational/abstract-factory/abstract_factory_generic.py), 
    [Bank account](creational/abstract-factory/abstract_factory_account.py), 
    [UI](creational/abstract-factory/abstract_factory_ui.py))
 
 * [Builder](creational/builder/) 
-  ([Summary](creational/builder/builder-summary.md),
+  ([Summary](creational/builder/README.md),
    [Generic](creational/builder/builder_generic.py), 
    [Investment Portfolio](creational/builder/builder_portfolio.py))
 
@@ -25,7 +25,7 @@ the context of financial domain knowledge.
 #### Behavioral
 
 * [Strategy](behavioral/strategy/) 
-  ([Summary](behavioral/strategy/strategy-summary.md),
+  ([Summary](behavioral/strategy/README.md),
    [Generic](behavioral/strategy/strategy_generic.py), 
    [Interest Rates](behavioral/strategy/strategy_interest_rates.py))
 
@@ -33,12 +33,12 @@ the context of financial domain knowledge.
 #### Structural
 
 * [Adapter](structural/adapter/) 
-  ([Summary](structural/adapter/adapter-summary.md),
+  ([Summary](structural/adapter/README.md),
    [Generic](structural/adapter/adapter_generic.py), 
    [Foreign Currency Accounts](structural/adapter/adapter_foreign_currency_account.py))
 
 * [Bridge](structural/bridge/) 
-  ([Summary](structural/bridge/bridge-summary.md),
+  ([Summary](structural/bridge/README.md),
    [Generic](structural/bridge/bridge_generic.py), 
    [WIP](structural/bridge/))
 

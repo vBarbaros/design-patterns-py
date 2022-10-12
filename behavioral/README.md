@@ -2,7 +2,7 @@
 <hr>
 
 * [Strategy](strategy/) 
-  ([Summary](strategy/strategy-summary.md),
+  ([Summary](strategy/README.md),
    [Generic](strategy/strategy_generic.py), 
    [Interest Rates](strategy/strategy_interest_rates.py))
 
