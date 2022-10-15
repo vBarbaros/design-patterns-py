@@ -36,4 +36,8 @@ an Abstract UI Factory. This UI Factory can create Window objects by using eithe
 ### Link to [source-code for abstract factory - ui example](abstract_factory_ui.py)
 
 
-#### Link to [Main README](../../README.md)
+<hr>
+
+[>> back-to-creational](../README.md)
+
+[>> back-to-main](../../README.md)

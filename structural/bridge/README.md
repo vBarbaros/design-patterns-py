@@ -47,5 +47,8 @@ depending on client's needs.
 
 ### Link to 
 
+<hr>
 
-#### Link to [Main README](../../README.md)
+[>> back-to-structural](../README.md)
+
+[>> back-to-main](../../README.md)

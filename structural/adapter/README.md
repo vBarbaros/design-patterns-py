@@ -23,4 +23,8 @@ that does not directly map to your domain-knowledge application.
 ### Link to [source-code for adapter - foreign currency account example](adapter_foreign_currency_account.py)
 
 
-#### Link to [Main README](../../README.md)
+<hr>
+
+[>> back-to-structural](../README.md)
+
+[>> back-to-main](../../README.md)
