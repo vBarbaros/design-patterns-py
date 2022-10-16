@@ -40,12 +40,7 @@ depending on client's needs.
 ## <Name 1> Example
 ### Class Diagram
 
-### Link to 
-
-## <Name 2> Example
-### Class Diagram
-
-### Link to 
+### Link to
 
 <hr>
 
