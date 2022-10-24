@@ -11,7 +11,7 @@ entity, when used will be implemented by each Implementation Classes.
 Assume that this entity has variations A, B and C of the same property, 
 thus ou will end up with three separate implementations:
 * ImplPropertyA, 
-* ImplPropertyB, and 
+* ImplPropertyB,
 * ImplPropertyC.
 
 Now, consider that we can use these properties, A, B and C, in two different 
