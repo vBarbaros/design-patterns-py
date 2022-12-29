@@ -1,9 +1,26 @@
 # Design Patterns in Python (with a flavor of finance)
 
 <hr>
-This repository aims to provide an extended collection of OOP Design Patterns, 
-briefly describing the main concepts and purpose for each of them, all this in 
-the context of financial domain knowledge.
+A design pattern is a general repeatable solution to a commonly occurring problem 
+in software design. A design pattern is not a finished design that can be 
+transformed directly into code. It is a description or template for how to 
+solve a problem that can be used in many situations.
+
+There are several types of design patterns, including creational, structural, 
+and behavioral patterns. Creational patterns deal with object creation mechanisms,
+trying to create objects in a manner suitable to the situation. 
+Structural patterns deal with object composition, creating relationships 
+between objects to form larger structures. Behavioral patterns focus on 
+communication between objects, what goes on between objects and how they
+operate together.
+
+This repository contains examples of various design patterns implemented 
+in Python, with a focus on financial topics. The code in this repository 
+is meant to serve as a reference for how design patterns can be implemented 
+and used in real-world applications, specifically within the financial industry. 
+It is not intended to be a comprehensive guide to design patterns, but 
+rather a collection of examples in Python to help developers understand the 
+concepts and see how they can be applied in practice in a financial context.
 <hr>
 
 # Table of Contents
