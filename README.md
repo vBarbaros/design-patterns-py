@@ -98,4 +98,4 @@ concepts and see how they can be applied in practice in a financial context.
 [1] **Design Patterns Elements of Reusable Object-Oriented Software** (by Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides) <br>
 [2] Python Design Patterns examples from [https://www.tutorialspoint.com](https://www.tutorialspoint.com/python_design_patterns/index.htm)
 <hr>
-Copyright (c) 2022 vBarbaros
+Copyright (c) 2023 vBarbaros

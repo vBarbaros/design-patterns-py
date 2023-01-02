@@ -128,4 +128,4 @@ https://www.contributor-covenant.org/faq. Translations are available at
 https://www.contributor-covenant.org/translations.
 
 
-Copyright (c) 2022 vBarbaros
+Copyright (c) 2023 vBarbaros

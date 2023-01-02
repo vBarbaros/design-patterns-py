@@ -16,4 +16,4 @@
 
 [>> back-to-main](../README.md)
 <hr>
-Copyright (c) 2022 vBarbaros
+Copyright (c) 2023 vBarbaros
