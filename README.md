@@ -40,6 +40,9 @@ concepts and see how they can be applied in practice in a financial context.
 
 
 #### Behavioral
+* [Chain of responsibility](behavioral/cor/) 
+  ([Summary](behavioral/cor/README.md),
+   [Generic](behavioral/cor/cor_generic.py))
 
 * [Strategy](behavioral/strategy/) 
   ([Summary](behavioral/strategy/README.md),
