@@ -22,10 +22,9 @@ types of objects being created by changing the factory class.
 ### Class Diagram
 This is how factory design pattern could look like in the banking system.
 
-Imagine that a bank needs to process various types of transactions, such as deposits, 
-withdrawals, and transfers. Each type of transaction has its own specific logic for how 
-it is processed, and the bank wants to allow for new types of transactions to be added in 
-the future.
+Assume that a bank needs to process various types of transactions, such as deposits, 
+withdrawals, and transfers. Each transaction type has its own logic for how it is processed, 
+and the bank wants to allow for new types of transactions to be added easily.
 
 ### Link to 
 
